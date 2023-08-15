@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-    runs-on: linux:latest
+    runs-on: ubuntu-latest
     sleps:
-      - name: echo s screen
+      - name: echo a screen
         run: echo "this is frist echo github"
