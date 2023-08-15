@@ -1,9 +1,9 @@
-name: Run Shell commands
+name: Run Shell Commands
 on: [push]
 
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
-    sleps:
-      - name: echo a screen
-        run: echo "this is frist echo github"
+    steps:
+      - name: Echo a String
+        run: echo "Hello Security Gurus!! This is our first GitHub Actions Workflow file"
