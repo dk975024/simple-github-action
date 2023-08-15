@@ -2,8 +2,8 @@ name: Run Shell commands
 on: [push]
 
 jobs:
-  run-shell-command:
+  runs-shell-command:
     run-on: linux:latest
-    sleeps:
+    sleps:
       - name: echo s screen
         run: echo "this is frist echo github"
